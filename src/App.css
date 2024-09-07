@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.cardsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.card {
+  border: 2px solid blue;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: grabbing;
+}
+
+.runbook-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
